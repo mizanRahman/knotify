@@ -16,6 +16,6 @@ public class PushNotificationEndPoint {
     @RequestMapping("/push")
     public ResponseEntity<String> sendPush() {
         log.debug("sending push message");
-        return ResponseEntity.ok("push sent");
+        return ResponseEntity.ok("push sent...");
     }
 }
